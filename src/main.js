@@ -18,3 +18,4 @@ console.log('findthiss', (import.meta.env.DEV && process.env.AUDITA11Y) ? 'GOOD'
 if (import.meta.env.DEV && process.env.AUDITA11Y) {
     prepareA11YAudit(router)
 }
+
